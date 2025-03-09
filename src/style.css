@@ -1,0 +1,143 @@
+/* ========== General Styles ========== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+/*=========== IMAGE FOR PROFILE ============= */
+.profile-pic {
+  max-width: 50%;
+  height: auto;
+}
+
+/* ========== Light Mode (Default) ========== */
+body {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+/* ========== Dark Mode ========== */
+.dark-mode {
+  background-color: #121212 !important;
+  color: white !important;
+}
+
+/* Dark Mode Navbar */
+.dark-mode .custom-navbar {
+  background-color: #222 !important;
+}
+
+/* Dark Mode for Cards (Profile, Settings, etc.) */
+.dark-mode .card {
+  background-color: #333 !important;
+  color: white !important;
+  border: 1px solid white !important;
+}
+
+/* Dark Mode Input Field */
+.dark-mode input {
+  background-color: #444 !important;
+  color: white !important;
+  border: 1px solid white !important;
+}
+
+/* ========== Profile Page Styles ========== */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Profile Picture */
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: gray;
+  display: inline-block;
+}
+
+/* Input Field */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* ========== Dark Mode for Profile Page ========== */
+.dark-mode .profile-picture {
+  background-color: rgba(240, 45, 103, 0.9) !important;
+}
+
+/* ========== Settings Page Styles ========== */
+.settings-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.settings-card {
+  width: 50%;
+  padding: 20px;
+}
+
+/* ========== Dark Mode for Settings Page ========== */
+.dark-mode .settings-card {
+  background-color: #333 !important;
+  color: rgb(255, 151, 203) !important;
+}
+
+/* ========== Updated Navbar Styles ========== */
+.custom-navbar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 15px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Navbar Buttons */
+.nav-btn {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background: #f3008e;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+/* Hover Effect */
+.nav-btn:hover {
+  background: #0056b3;
+  transform: scale(1.08);
+}
+
+/* Dark Mode Navbar */
+.dark-mode .custom-navbar {
+  background: rgba(240, 45, 103, 0.9);
+}
+
+.dark-mode .nav-btn {
+  background: #f062a9;
+}
+
+.dark-mode .nav-btn:hover {
+  background: #ff8cc6;
+}
